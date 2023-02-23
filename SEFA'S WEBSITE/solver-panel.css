@@ -1,0 +1,115 @@
+body{
+    background-image: url("solversite.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+span{
+    color: #94beff;
+}
+h1{
+    text-align: center;
+    color: #BB2649;
+    font-family:'Brush Script MT', cursive;
+}
+h3{
+    text-align: justify;
+    color: #ffd100;
+    font-family: 'Brush Script MT', cursive;
+    margin-bottom: 40px;
+}
+#second_h3{
+    color: #ffd100;
+    font-family: 'Brush Script MT', cursive;
+    margin-left: 400px;
+    margin-right: 300px;
+    text-align: center;
+}
+#pphoto{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+}
+#s_file{
+    display: none;
+}
+#s_upload{
+    position: absolute;
+    width: 26px;
+    height: 27px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: #FFF;
+    background-color: rgb(173,172,172,0.801);
+    box-shadow:2px 4px 4px rgb(0,0,0,0.644);
+}
+#solver_info{
+    padding-top: 20px;
+}
+.s_assingmentsupload{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-top: 80px;
+    text-align: center;
+    font-family: "Cascadia Code";
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    color: midnightblue;
+}
+#s_files{
+    display: none;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 10px;
+}
+#s_fileimg{
+    cursor: pointer;
+    color: midnightblue;
+    background-color: snow;
+    box-shadow:2px 4px 4px rgb(0,0,0,0.644);
+}
+#s_submit1{
+    background-color: #BB2649;;
+    border: none;
+    border-radius:20px;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+#s_submit1:hover {
+    transform: scale(1.1);
+}
+#s_result {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 0;
+}
+.thumbnail {
+    height: 200px;
+    object-fit: cover;
+}
+.visit-button {
+    background-color: lightgrey;
+    border: solid #6667AB 4px;
+    color: darkslategray;
+    padding: 8px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Brush Script MT', cursive;
+}
+.visit-button:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="style1.css">
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+  
+    <form id="login">
+        <h2>Login to <br><span>Project-V</span></h2>
+        <input id="mail" type="text" name="Email" placeholder="e-mail">
+        <input id="pass" type="password" name="Password" placeholder="password">
+        <p>Select your user type</p><br>
+        <div class="wrapper">
+            <input type="radio" name="select" id="option-1" onclick="setAction('studentpanel.html')">
+            <input type="radio" name="select" id="option-2" onclick="setAction('')">
+              <label for="option-1" class="option option-1">
+                <div class="dot"></div>
+                 <span> Student</span>
+                 </label>
+              <label for="option-2" class="option option-2">
+                <div class="dot"></div>
+                 <span> Solver</span>
+              </label>
+           </div>
+        <input type="submit" id="fsubmit" value="Enter">
+            <p>You don't have an account?</p><br>
+        <a href="register.html"><button class="favorite styled"
+              type="button">
+            Create account
+        </button>
+      </a>    
+    </form>
+</body>
+</html>
