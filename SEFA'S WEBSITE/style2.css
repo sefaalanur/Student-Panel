@@ -1,0 +1,88 @@
+*
+{
+ margin: 0;
+ padding: 0;
+ font-family: Arial, Helvetica, sans-serif ;
+}
+body{
+    background: #262626;
+    background-image: url("vizja.jpg");
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+}
+form span{
+    color: rgb(179, 0, 255);
+    font-size: 40px;
+}
+form{
+    background: #262626;
+    padding: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.8);
+    width: 380px;
+    height: 600px;
+}
+form h1{
+    margin-top: 15px;
+    font-size: 50px;
+    color:bisque;
+    margin-bottom: 20px;
+    font-family: "Audiowide", sans-serif;
+}
+form label{
+    color: rgb(255, 255, 255);
+    font-family: "Audiowide", sans-serif;
+}
+form input{
+    border: solid 2px rgb(0, 0, 0);
+    background: none;
+    text-align: center;
+    outline: none;
+    padding: 4px;
+    margin:10px;
+    color:rgb(255, 255, 255);
+    height: 25px;
+    width: 40%;
+    border-radius: 5px;
+    transition: 0.2s linear;
+}
+form .radio{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+form input[type="submit"]{
+    background-color: #808080 ;
+    border:solid 2px #000000;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40%;
+    cursor: pointer;
+    color: bisque;
+}
+form input[type="submit"]:hover{
+    background: #182c61;
+    color: yellow;
+    width: 50%;
+}
+form input[type="text"],form input[type="password"]{
+
+    border:solid 2px #189cfc;
+}
+form input[type="date"],form input[type="date"]{
+    border:solid 2px #189cfc;
+    background-color: #182c61;
+
+}
+form input[type="text"]:hover,form input[type="password"]:hover{
+    width: 50%;
+    border:solid 2px #18fcb8;
+}

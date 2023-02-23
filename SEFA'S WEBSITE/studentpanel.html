@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="student-panel.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>Student Panel</title>
+</head>
+<body>
+<h1>MY ASSINGMENTS</h1>
+<div id="st_info" class="pp">
+
+        <img src="profilephoto.jpg" id="photo">
+        <input type="file" id="file">
+        <label for="file" id="upload"><i class="fas fa-camera"></i></label>
+    <h3 id="info"><u>Student Information</u></h3>
+    <p id="student_info">
+    <input type="text" id="fname" name="fname"><br><br><br>
+    <input type="text" id="lname" name="lname"><br><br><br>
+    <input type="email" id="fmail" name="fname"><br><br><br>
+    <input type="date" id="fbday" name="fbday">
+    </p>
+</div>
+
+<form id="assingmentsform" class="assingmentsupload" action="">
+    <a class="visit-button" href="assingments.html" target="_blank">Visit Assingments Tab</a>
+    <label for="files" id="fileimg"><b><u>Upload the assingments as image  </u></b><i class="fa fa-file"></i></label>
+    <input id="files" type="file" multiple="multiple" accept="image/jpeg, image/png, image/jpg">
+    <input id="submit1" type="submit" value="submit">
+    <output id="result"></output>
+</form>
+
+<script src="student-panel.js"></script>
+</body>
+</html>
